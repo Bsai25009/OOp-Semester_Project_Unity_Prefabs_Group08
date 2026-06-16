@@ -1,11 +1,16 @@
-How to Use Modules Instructions:
-   1) In order to use Round Bottom Flaks Or IronStandWithClamp  you have to install a package (com.unity.cloud.gltfast ) 
-      Instructions To Install(com.unity.cloud.gltfast):
-          Go to Window > Package Manager > '+' (Button) > Add/Install Through Link then past the link their and then install (Unity giTFast)
-   2)In order to use Iron Stand and WireGauze Its simple Just Import Them
-   3)In order to use BunsenBurbner Instructions:
-       First of all Press the RED button AS it is button to on and off bunsen burner , There are three levels of Flame in it
-          Yellow button is 
-          for 1st Level  -> mean Low Flame, , Blue button is 
-          for 2nd Level  -> mean Mediam Flame, SKY Blue button is 
-          for 3rd Level  -> mean High Flame,
+IMPORTANT: For some modules, you need to install glTFast Package which allows your Unity Project to understand and process .glb files, used in some modules of this file.
+           1. Kindly copy this:      com.unity.cloud.gltfast
+           2. Inside your project, Navigate to top menu and select WINDOW > PACKAGE MANAGER.
+           3. In PACKAGE MANAGER WINDOW, click the "+" (Plus icon) in the top-left corner.
+           4. Select "Add Package by git URL" from the drop-down menu.
+           5. Enter the copied text: com.unity.cloud.gltfast
+           6. Click Add or install.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+==============================
+MODULES GUIDELINES (IMPORTANT)
+==============================
+Bunsen Burner: Works with button and has animation during runtime. Simply run the project, from camera view, click the RED button to turn it ON or OFF. Click the other 3 buttons to increase speed of Flame
+Tripod Stand: Default size may be too small, increase it's size for proper use.
+Wire Gauze: Easy to use, default size may be large, you can reduce it manually or resize however you want.
+Round Bottom Flask: requires com.unity.cloud.gltfast Package.
+Iron Stand With Clamp: requires com.unity.cloud.gltfast Package. For multiple holders in a single stand, the holder has been isolated finely from the stand and its base. You can duplicate that part when in need of multiple holders.
